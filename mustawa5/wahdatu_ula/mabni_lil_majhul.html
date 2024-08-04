@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        لغة الضاد
+    </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <script src="/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = '/shared_parts/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div data-include="navbar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container mt-5 pt-5">
+            <h3 class="arabic-text">
+                المَبْنيُّ للْمَجْهُول
+            </h3>
+            <hr>
+            <h5 class="arabic-text">
+                <img src="/assets/img/numbers/1-circle-fill.svg">
+                كَيْفَ نَبْنِي الْفَعْلَ الْمَاضِيَ لِلْمَجْهُولِ؟
+            </h5>
+            <h6 class="arabic-text">
+                <img src="/assets/img/other/caret-left-fill.svg">
+                <ol>
+                    <li> نَضُمُّ أَوَّلَهُ </li>
+                    <li>نَكْسِرُ مَا قَبْلَ آخِرِهِ</li>
+                </ol>
+            </h6>
+            <h5 class="arabic-text">
+                <img src="/assets/img/numbers/2-circle-fill.svg">
+                أَسْبَابِ حَذْفِ الْفَاعِلِ وَهِي
+            </h5>
+            <h6 class="arabic-text">
+                <img src="/assets/img/other/caret-left-fill.svg">
+                <ol>
+                    <li> الجهلُ بِهِ </li>
+                    <li> الْعِلْمُ بِهِ </li>
+                    <li> الْخَوْفُ عَلَيْهِ </li>
+
+                </ol>
+            </h6>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

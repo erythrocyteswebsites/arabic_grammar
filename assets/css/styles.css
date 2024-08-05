@@ -108,3 +108,11 @@ ol#two-columns {
     direction: rtl;
     font-size: 40px !important;
 }
+
+.example {
+    color: gray;
+}
+
+.attention {
+    color: orangered;
+}

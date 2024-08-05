@@ -8,12 +8,34 @@ body {
 
 .main-content {
     flex: 1;
+    font-family: "Jomhuria", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content .row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-bottom: 20px;
+    direction: rtl;
+    /* Optional: adds space between the columns */
+}
+
+.main-content .cell {
+    flex: 1;
+    padding-bottom: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 
 .footer {
     background-color: #f8f9fa;
     text-align: center;
     padding: 10px 0;
+    font-family: sans-serif;
+    font-size: 17px;
 }
 
 .logo {
@@ -75,4 +97,11 @@ body {
 .arabic-text {
     text-align: right;
     direction: rtl;
+    font-size: 40px !important;
+}
+
+.ol {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }

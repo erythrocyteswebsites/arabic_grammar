@@ -30,6 +30,15 @@ body {
     border-radius: 15px;
 }
 
+ol#two-columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
 .footer {
     background-color: #f8f9fa;
     text-align: center;
@@ -98,10 +107,4 @@ body {
     text-align: right;
     direction: rtl;
     font-size: 40px !important;
-}
-
-.ol {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
 }

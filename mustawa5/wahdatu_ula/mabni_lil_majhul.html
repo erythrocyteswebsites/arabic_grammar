@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        المَبْنيُّ للْمَجْهُول
+    </title>
+
+    <link rel="icon" href="/assets/img/logos/favicon.svg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jomhuria">
+
+    <script src="/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = '/shared_parts/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div data-include="navbar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container mt-5 pt-5">
+            <h3 class="arabic-text">
+                المَبْنيُّ للْمَجْهُول
+            </h3>
+            <hr>
+            <div class="row">
+                <div class="cell">
+                    <h5 class="arabic-text">
+                        <img src="/assets/img/other/caret-left-fill.svg">
+                        كَيْفَ نَبْنِي الْفِعْلَ الْمَاضِيَ لِلْمَجْهُولِ؟
+                    </h5>
+                    <h6 class="arabic-text">
+                        <ol>
+                            <li> نَضُمُّ أَوَّلَهُ </li>
+                            <li>نَكْسِرُ مَا قَبْلَ آخِرِهِ</li>
+                        </ol>
+                    </h6>
+                </div>
+                <div class="cell">
+                    <h5 class="arabic-text">
+                        <img src="/assets/img/other/caret-left-fill.svg">
+                        أَسْبَابِ حَذْفِ الْفَاعِلِ وَهِي
+                    </h5>
+                    <h6 class="arabic-text">
+                        <ol id="two-columns">
+                            <li> الجهلُ بِهِ </li>
+                            <li> الْعِلْمُ بِهِ </li>
+                            <li> الْخَوْفُ عَلَيْهِ </li>
+                            <li> الْخَوْفُ مِنْهُ </li>
+                            <li> تَحْقِيرُ الْفَاعِل </li>
+                            <li> الإيجاز </li>
+                            <li> الْبَلَاغَةُ وَالسَّجْعُ </li>
+                        </ol>
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cell">
+                    <h5 class="arabic-text">
+                        <img src="/assets/img/other/caret-left-fill.svg">
+                        مَا التَّغَيُّرَاتُ الصَّرْفِيَّةُ الَّتِي تَحْدُثُ فِي الْفِعْلِ الَّذِي يُرَادُ بِنَاؤُهُ؟
+                    </h5>
+                    <h6 class="arabic-text">
+                        <mark> الْمَاضِي </mark>
+                        <p>
+                            <span class="attention"> القاعدة: </span>
+                            ضَمُّ الْأَوَّلِ وَكَسْرُ مَا قَبْلَ الْآخِرِ :<span class="example"> [
+                                كَتَبَ &#8592; كُتِبَ,
+                                زَلْزَلَ &#8592; زُلْزِلَ, أَكْرَمَ &#8592; أُكرِمَ]</span>
+                        </p>
+                    </h6>
+                    <ol class="arabic-text">
+                        <li>
+                            السَّالِمُ وَالْمَهْمُوزُ وَالْمَثَالُ يَسِيرُ عَلَى الْقَاعِدَةِ بِلَا تَغْيِير
+                        </li>
+                        <li>
+                            إِذَا بَدَأَ الْفِعْلُ بِهمْرَةِ وَصْلٍ يُضَمُ ثَالِثَهُ مَعَ أَوْلِهِ مَعَ كَسْرِ ما قَبْلَ
+                            الآخِرِ:
+                            <span class="example">
+                                [
+                                اِنْفَعَلَ &#8592; اُنْفُعِلَ,
+                                اِفْتَعَلَ &#8592; اُفْتُعِلَ,
+                                اِسْتَفْعَلَ &#8592; اُسْتُفْعِلَ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            إِذَا بَدَأَ الْفِعْلُ بِتَاءٍ زَائِدَةٍ يُضَمُ ثَانِيهِ مَعَ أَوَّلِهِ ويُكْسَر مَا قَبْلَ
+                            آخِرِهِ:
+                            <span class="example">
+                                [
+                                تَفَعَّلَ &#8592; تُفُعِّلَ,
+                                تَفَاعَلَ &#8592; تُفُوعِلَ,
+                                تَفَعلَلَ &#8592; تُفُعْلِلَ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            الْفِعْلُ عَلَى وَزْنِ فَاعَلَ/تَفَاعَلَ تُقْلَبُ أَلِفُهُ وَاوًا بِسَبَبِ الضَّمّ:
+                            <span class="example">
+                                [
+                                فَاعَلَ &#8592; فُوعِلَ,
+                                تَفَاعَلَ &#8592; تُفُوعِلَ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            الْمُضَعَّفُ الثَّلَاثِي: ضم الأول أو كسره:
+                            <span class="example">
+                                [
+                                عَدَّ &#8592; عِدَّ / عُدَّ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            مَزِيدُ الْمُضَعَّفَ:
+                            <br>
+                            <span class="hgh">
+                                الرُّبَاعِيِّ
+                            </span>
+                            وَالسُّدَاسِي يسير على القاعدة:
+                            <span class="example">
+                                [
+                                أَعَدَّ &#8592; أُعِدَّ
+                                ]
+                            </span>
+                            <br>
+                            <span class="hgh">
+                                الْخُمَاسِي
+                            </span>
+                            أَوَّلِهِ فقط أو كَسْرُ مَا قَبْلَ آخِرِهِ فقط:
+                            <span class="example">
+                                [
+                                اِعْتَدَّ &#8592; اُعْتُدَّ / اِعْتِدَّ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            الْأَجْوَفُ الثَّلَاثِيُّ:
+                            <span class="example">
+                                [
+                                قَالَ &#8592; قِيلَ / قُولَ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            مَزِيدُ الْأَجْوَفِ:
+                            <br>
+                            <span class="hgh">
+                                الرُّبَاعِيِّ
+                            </span>
+                            ضَمُّ الْأَوَّلِ وَكَسْرُ مَا قَبْلَ الآخِرِ مَعَ قَلْبِ الْأَلِفِ يَاءً بِسَبَبٍ الكسْرةِ:
+                            <span class="example">
+                                [
+                                أَعَادَ &#8592; أُعِيدَ,
+                                اِسْتَعَانَ &#8592; اُسْتُعِينَ
+                                ]
+                            </span>
+                            <br>
+                            <span class="hgh">
+                                الْخُمَاسِي
+                            </span>
+                            <span class="example">
+                                [
+                                اِحْتَارَ &#8592; اُحْتُورَ / اِحْتِيرَ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            النَّاقِصُ (مُجَرَّدًا أَوْ مَزِيدًا):
+                            <span class="example">
+                                [
+                                دَعا &#8592; دُعِيَ,
+                                أَغْنَى &#8592; أُغْنِيَ
+                                ]
+                            </span>
+                        </li>
+                    </ol>
+                    <h6 class="arabic-text">
+                        <mark> الْمُضَارِعِ </mark>
+                        <p>
+                            <span class="attention">
+                                القاعدة:
+                            </span>
+                            ضَمُّ الْأَوَّلِ وَفَتْحُ مَا قَبْلَ الْآخِرِ:
+                        </p>
+                        <ul class="example" id="two-columns">
+                            <li>يَفْعَلُ, يَفْعِلُ, يَفْعُلُ, يُفْعِل &#8592; يُفْعَلُ, </li>
+                            <li>يُفَعِّلُ &#8592; يُفَعَّلُ, </li>
+                            <li>يُفَاعِل &#8592; يُفَاعَل, </li>
+                            <li>يُفَعْلِلُ &#8592; يُفَعْلَل, </li>
+                            <li>يَنْفَعِلُ &#8592; يُنْفَعَل </li>
+                            <li>يَفْتَعِلُ &#8592; يُفْتَعَلُ</li>
+                            <li>يَفْعَلَّ &#8592; يُفْعَلَّ</li>
+                            <li>يَتَفَعَّلُ &#8592; يُتَفَعَّلُ</li>
+                            <li>يَتَفَاعَل &#8592; يُتَفَاعَلُ</li>
+                            <li>يَتَفَعْلَلُ &#8592; يُتَفَعْلَلُ</li>
+                            <li>يَسْتَفْعِلُ &#8592; يُسْتَفْعَلُ</li>
+                            <li>يَفْعَلِلَّ &#8592; يُفْعَلَلَّ</li>
+                            <li>يَفْعَنْلِلُ &#8592; يُفْعَنْلَلُ</li>
+                        </ul>
+                    </h6>
+                    <ol class="arabic-text">
+                        <li>
+                            السَّالِمُ وَالْمَهْمُوزِ والْمُضَعَّفَ (لَا يَحْدُثُ فِيهَا تَغْيِير):
+                            <span class="example">
+                                [
+                                يَكْتُبُ &#8592; يُكْتَبُ,
+                                يَشُدُّ &#8592; يُشَدُّ,
+                                يُزَلْزِلُ &#8592; يُزَلْزَلُ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            الْمِثَالَ ( تَعُودُ فَاءُ الْفِعْلِ الْمَحْذُوفَة):
+                            <span class="example">
+                                [
+                                يَلِدُ &#8592; يُولِدُ
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            الْأَجْوَفُ وَالنَّاقِصُ مُجَرَّدًا أَوْ مَزِيدًا يُقْلَبُ حَرْفُ الْعِلَّةِ أَلِفَا
+                            بِسَبَبِ فَتْحِ مَا قَبْلَ الْآخِرِ:
+                            <ul class="example" id="two-columns">
+                                <li>يَقُولُ &#8592; يُقَالُ, </li>
+                                <li>يَبِيعُ &#8592; يُبَاعُ,</li>
+                                <li>يُرِيدُ &#8592; يُرَادُ, </li>
+                                <li>يَسْتَعِينُ &#8592; يُسْتَعَانُ, </li>
+                                <li>يَسْتَجِيبُ &#8592; يُسْتَجَابُ, </li>
+                                <li>يَمْشِي &#8592; يُمْشَى,</li>
+                                <li>يَدْعُو &#8592; يُدْعَى,</li>
+                                <li>يَفْتَرِي &#8592; يُفْتَرَي,</li>
+                                <li>يَسْتَغْنِي &#8592; يُسْتَغْنَى</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

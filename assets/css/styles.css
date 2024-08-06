@@ -142,3 +142,15 @@ ul#two-columns {
     border-width: 5px 5px 5px 5px;
     padding-right: 10px;
 }
+
+table {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+
+table td {
+    border: 2px solid black;
+    text-align: center;
+}

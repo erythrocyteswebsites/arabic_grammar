@@ -144,13 +144,21 @@ ul#two-columns {
 }
 
 table {
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
+    border: 4px solid black;
 }
 
 
 table td {
     border: 2px solid black;
     text-align: center;
+}
+
+.no_border {
+    border-spacing: 30px;
+    border-width: 0px;
+}
+
+.cell_spacing {
+    border-collapse: separate;
+    border-spacing: 35px 15px;
 }

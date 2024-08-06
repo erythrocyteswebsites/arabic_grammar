@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        العَدَدُ
+    </title>
+
+    <link rel="icon" href="/assets/img/logos/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
+    <script src="/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = '/shared_parts/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div data-include="navbar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container mt-5 pt-5">
+            <h3 class="arabic-text">
+                العَدَدُ
+            </h3>
+            <hr>
+            <div class="row">
+                <div class="cell">
+                    <p class="arabic-text">
+                        أَقْسَامُ العَددِ
+                    </p>
+                    <ol class="arabic-text">
+                        <li>
+                            <span class="hgh">
+                                مُفْرَد
+                            </span>
+                            ١ - ١٠ :
+                            &emsp;
+                            <span class="hgh">
+                                التميِيز
+                            </span>
+                            جَمع مَجْرُور: &nbsp; &nbsp;
+                            <span class="example">
+                                [
+                                جَاءَ خَمْسَةُ
+                                <span class="hgh2">
+                                    طُلاب,
+                                </span>
+                                جَاءَتْ خَمْسُ
+                                <span class="hgh2">
+                                    طَالِبَاتٍ
+                                </span>
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            <span class="hgh">
+                                مُرَكَّب
+                            </span>
+                            ١١ - ١٩ :
+                            &emsp;
+                            <span class="hgh">
+                                التميِيز
+                            </span>
+                            مُفْرَد مَنْصُوب: &nbsp; &nbsp;
+                            <span class="example">
+                                [
+                                جَاءَ ثَلَاثَةَ عَشَرَ
+                                <span class="hgh2">
+                                    رَجُلًا
+                                </span>
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            <span class="hgh">
+                                مَعْطُوف
+                            </span>
+                            ٢١ - ٩٩ :
+                            &emsp;
+                            <span class="hgh">
+                                التميِيز
+                            </span>
+                            مُفْرَد مَنْصُوب: &nbsp; &nbsp;
+                            <span class="example">
+                                [
+                                جَاءَتْ تِسْعٌ وَثَلَاثُونَ
+                                <span class="hgh2">
+                                    أُخْتَا
+                                </span>
+                                ]
+                            </span>
+                        </li>
+                        <li>
+                            <span class="hgh">
+                                أَلْفَاظُ الْعُقُودِ
+                            </span>
+                            : ٢٠, ٣٠, ٤٠,...,٩٠ :
+                            &emsp;
+                            <span class="hgh">
+                                التميِيز
+                            </span>
+                            مُفْرَد مَنْصُوب: &nbsp; &nbsp;
+                            <span class="example">
+                                [
+                                جَاءَتْ خَمْسُونَ
+                                <span class="hgh2">
+                                    أُخْتًا
+                                </span>
+                                ]
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <table class="arabic-text">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3">١,٢</td>
+                                <td colspan="3">٣-٩</td>
+                                <td colspan="2">١٠</td>
+                            </tr>
+                            <tr>
+                                <td>مُفْرَد </td>
+                                <td>مُرَكَّب </td>
+                                <td>مَعْطُوف</td>
+                                <td>مُفْرَد </td>
+                                <td>مُرَكَّب </td>
+                                <td>مَعْطُوف</td>
+                                <td>مُفْرَد </td>
+                                <td>مُرَكَّب </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">يُوَافِقُ</td>
+                                <td colspan="3">يُخَالِفُ</td>
+                                <td>يُخَالِفُ</td>
+                                <td>يُوَافِقُ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div data-include="footer"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -23,7 +23,7 @@
         $(function () {
             var includes = $('[data-include]')
             $.each(includes, function () {
-                var file = '/shared_parts/' + $(this).data('include') + '.html'
+                var file = '/content/shared_parts/' + $(this).data('include') + '.html'
                 $(this).load(file)
             })
         })
@@ -44,12 +44,18 @@
             <div class="row">
                 <div class="cell">
                     <span class="arabic-text">
-                        هُوَ التَّابِعُ الْفَضْلَةُ الْمُبَيِّنُ صِفَةَ مَنْعُوتِهِ
+                        هُوَ التَّابِعُ
+                        <a href="/content/mustawa_common/common_short.html#fadla">
+                            الْفَضْلَةُ
+                        </a>
+                        الْمُبَيِّنُ صِفَةَ مَنْعُوتِهِ
                     </span>
+                    <br>
+
                 </div>
                 <div class="cell">
                     <span class="arabic-text">
-                        النَّعْتُ تابعٌ يَتْبَعُ الْمَنْعُوتَ فِي:
+                        يَتْبَعُ الْمَنْعُوتَ فِي:
                     </span>
                     <ol class="arabic-text">
                         <li> الْإِعْرَابُ </li>

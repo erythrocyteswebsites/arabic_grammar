@@ -153,6 +153,11 @@ table td {
     text-align: center;
 }
 
+table th {
+    border: 2px solid black;
+    text-align: center;
+}
+
 .no_border {
     border-spacing: 30px;
     border-width: 0px;

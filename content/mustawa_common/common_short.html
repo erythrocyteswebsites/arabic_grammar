@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        ${YOUR_TITLE}
+        تعريفات قصيرة
     </title>
 
     <link rel="icon" href="/assets/img/logos/favicon.svg">
@@ -23,7 +23,7 @@
         $(function () {
             var includes = $('[data-include]')
             $.each(includes, function () {
-                var file = '/shared_parts/' + $(this).data('include') + '.html'
+                var file = '/content/shared_parts/' + $(this).data('include') + '.html'
                 $(this).load(file)
             })
         })
@@ -37,7 +37,24 @@
     <!-- Main Content -->
     <div class="main-content">
         <div class="container mt-5 pt-5">
-            <!-- YOUR HTML HERE -->
+            <h3 class="arabic-text">
+                تعريفات قصيرة
+            </h3>
+            <hr>
+            <div class="row">
+                <div class="cell">
+                    <ul class="arabic-text">
+                        <li>
+                            <span class="attention">
+                                <span id="fadla"> فَضْلَةٌ </span>
+                            </span>
+                            &emsp;
+                            لَيْسَ مُبْتَدَأَ وَلَا خَبَرًا وَلَا فَاعِلًا
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 

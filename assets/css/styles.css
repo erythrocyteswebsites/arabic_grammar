@@ -50,7 +50,7 @@ ul#two-columns {
 }
 
 .footer {
-    background-color: #f8f9fa;
+    background-color: #484848;
     text-align: center;
     padding: 10px 0;
     font-family: sans-serif;
@@ -149,6 +149,11 @@ table {
 
 
 table td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+table th {
     border: 2px solid black;
     text-align: center;
 }
